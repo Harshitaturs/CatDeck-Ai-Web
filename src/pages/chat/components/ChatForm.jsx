@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { getGeminiResponse } from "./../../../utils/gemini";
+import { getGeminiResponse } from "./../../../utils/groq";
 
 const ChatForm = ({ setChatHistory }) => {
     const inputRef = useRef();
@@ -76,7 +76,7 @@ const ChatForm = ({ setChatHistory }) => {
                         onClick={() => {
                             setChatHistory([]);
                             localStorage.removeItem("chat");
-                            localStorage.removeItem("chatHistory"); 
+                            localStorage.removeItem("chatHistory");
                         }}
                         className="material-symbols-rounded h-8 w-8 flex items-center justify-center text-gray-400 hover:text-red-400 hover:bg-white/5 rounded-full transition cursor-pointer"
                     >
