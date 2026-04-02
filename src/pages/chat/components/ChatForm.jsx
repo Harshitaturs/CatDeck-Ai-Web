@@ -55,8 +55,8 @@ const ChatForm = ({ setChatHistory }) => {
 
     return (
         <form
-            novalidate
-            onSubmit={handleFormSubmit}
+
+            novalidate onSubmit={handleFormSubmit}
             className={`chat-form flex items-center gap-2 bg-[#1e293b] border rounded-2xl px-3 md:px-4 py-2 md:py-3 transition-all duration-300 ${isTyping ? "border-white/5 opacity-80 cursor-not-allowed" : "border-white/10 focus-within:border-amber-400"
                 }`}
         >
@@ -66,7 +66,7 @@ const ChatForm = ({ setChatHistory }) => {
                 disabled={isTyping}
                 placeholder={isTyping ? "Deck is processing..." : "Ask CatDeck anything..."}
                 className="message-input bg-transparent flex-1 outline-none text-white placeholder-gray-500 text-sm disabled:cursor-not-allowed"
-                required
+
             />
 
             <div className="flex items-center gap-2">
