@@ -55,6 +55,7 @@ const ChatForm = ({ setChatHistory }) => {
 
     return (
         <form
+            novalidate
             onSubmit={handleFormSubmit}
             className={`chat-form flex items-center gap-2 bg-[#1e293b] border rounded-2xl px-3 md:px-4 py-2 md:py-3 transition-all duration-300 ${isTyping ? "border-white/5 opacity-80 cursor-not-allowed" : "border-white/10 focus-within:border-amber-400"
                 }`}
