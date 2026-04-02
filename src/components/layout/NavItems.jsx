@@ -65,7 +65,7 @@ const NavItems = () => {
                 href={links[1].path}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={(e) => e.preventDefault()}
+
                 className={getLinkClass(false)}
             >
                 {links[1].name}
