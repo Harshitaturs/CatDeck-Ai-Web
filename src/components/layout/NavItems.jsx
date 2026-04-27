@@ -45,7 +45,7 @@ const NavItems = () => {
                                 <span className="text-white font-semibold">CatDeck</span> is a specialized AI assistant powered by the <span className="text-accent">Groq API (Llama 3.3)</span>.
                             </p>
                             <p>
-                                This project is a collaborative & dedicated effort of <a href="https://www.linkedin.com/in/withharshit/" target="_blank"> <u> Harshit</u> </a> & <a target="_blank" href="https://www.linkedin.com/in/chirag-in/"> <u> chirag </u> </a> to simplify web development workflows while showcasing our forward looking technical skillset and portfolio practices.
+                                This project is a collaborative & dedicated effort of <a href="https://www.linkedin.com/in/withharshit/" target="_blank"> <u> Harshit</u> </a> & <a target="_blank" href="https://www.linkedin.com/in/chirag-in/"> <u> Chirag </u> </a> to simplify web development workflows while showcasing our forward looking technical skillset and portfolio practices.
                             </p>
                         </div>
                         <div className="space-y-1.5 border-t border-white/5 pt-3">
