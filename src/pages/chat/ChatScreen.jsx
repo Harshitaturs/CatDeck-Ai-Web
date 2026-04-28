@@ -43,7 +43,7 @@ const ChatScreen = () => {
                             <ChatPawIcon className="text-[18px] text-[#0f172a] block" />
                         </div>
                         <p className="message-text px-4 py-3 bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl rounded-tl-none text-sm text-gray-200 leading-relaxed shadow-sm">
-                            Hey Catdeck here! <br /> How can I help you today?
+                            Hello, this is CatDeck 👋 <br /> Ready to assist — what do you need?
                         </p>
                     </div>
 
